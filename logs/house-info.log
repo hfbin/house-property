@@ -1,0 +1,78 @@
+2018-09-10 16:31:31.595 [main] INFO  [cn.hfbin.house.web.HousePropertyWebApplication:48] maincid - Starting HousePropertyWebApplication on DESKTOP-T3LTBUJ with PID 10892 (D:\ClassicProjectSourceCode\HouseProperty\house-property-web\target\classes started by HuangFuBin in D:\ClassicProjectSourceCode\HouseProperty)
+2018-09-10 16:31:31.611 [main] INFO  [cn.hfbin.house.web.HousePropertyWebApplication:662] maincid - No active profile set, falling back to default profiles: default
+2018-09-10 16:31:31.673 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f7923a5: startup date [Mon Sep 10 16:31:31 CST 2018]; root of context hierarchy
+2018-09-10 16:31:31.689 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] background-preinitcid - HV000001: Hibernate Validator 5.2.5.Final
+2018-09-10 16:31:32.851 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] maincid - No MyBatis mapper was found in '[cn.hfbin.house.web]' package. Please check your configuration.
+2018-09-10 16:31:34.091 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8091 (http)
+2018-09-10 16:31:34.107 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-09-10 16:31:34.107 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-09-10 16:31:34.279 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-09-10 16:31:34.279 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 2606 ms
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'metricsFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:271] localhost-startStop-1cid - Mapping filter: 'logFilter' to urls: [*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-09-10 16:31:34.782 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 16:31:34.858 [main] WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:551] maincid - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'agencyController': Unsatisfied dependency expressed through field 'agencyService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.hfbin.house.core.service.AgencyService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 16:31:34.858 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Stopping service [Tomcat]
+2018-09-10 16:31:34.905 [main] INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] maincid - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-09-10 16:31:35.077 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+
+2018-09-10 16:55:37.762 [main] INFO  [cn.hfbin.house.web.HousePropertyWebApplication:48] maincid - Starting HousePropertyWebApplication on DESKTOP-T3LTBUJ with PID 11512 (D:\ClassicProjectSourceCode\HouseProperty\house-property-web\target\classes started by HuangFuBin in D:\ClassicProjectSourceCode\HouseProperty)
+2018-09-10 16:55:37.762 [main] INFO  [cn.hfbin.house.web.HousePropertyWebApplication:662] maincid - No active profile set, falling back to default profiles: default
+2018-09-10 16:55:37.825 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f7923a5: startup date [Mon Sep 10 16:55:37 CST 2018]; root of context hierarchy
+2018-09-10 16:55:37.856 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] background-preinitcid - HV000001: Hibernate Validator 5.2.5.Final
+2018-09-10 16:55:38.900 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] maincid - No MyBatis mapper was found in '[cn.hfbin.house.web]' package. Please check your configuration.
+2018-09-10 16:55:39.904 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8091 (http)
+2018-09-10 16:55:39.919 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-09-10 16:55:39.919 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-09-10 16:55:40.060 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-09-10 16:55:40.060 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 2235 ms
+2018-09-10 16:55:40.418 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'metricsFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:271] localhost-startStop-1cid - Mapping filter: 'logFilter' to urls: [*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-09-10 16:55:40.434 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-10 16:55:40.496 [main] WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:551] maincid - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'agencyController': Unsatisfied dependency expressed through field 'agencyService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.hfbin.house.core.service.AgencyService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 16:55:40.496 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Stopping service [Tomcat]
+2018-09-10 16:55:40.512 [main] INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] maincid - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-09-10 16:55:40.653 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+

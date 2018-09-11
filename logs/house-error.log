@@ -1,0 +1,30 @@
+2018-09-10 16:31:35.077 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+
+2018-09-10 16:55:40.653 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+

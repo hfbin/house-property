@@ -1,0 +1,5 @@
+<root>
+    <item name='com.alibaba.druid.support.http.StatViewServlet'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

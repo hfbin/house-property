@@ -1,0 +1,34 @@
+2018-09-10 16:31:32.851 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] maincid - No MyBatis mapper was found in '[cn.hfbin.house.web]' package. Please check your configuration.
+2018-09-10 16:31:34.858 [main] WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:551] maincid - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'agencyController': Unsatisfied dependency expressed through field 'agencyService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.hfbin.house.core.service.AgencyService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 16:31:35.077 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+
+2018-09-10 16:55:38.900 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner:166] maincid - No MyBatis mapper was found in '[cn.hfbin.house.web]' package. Please check your configuration.
+2018-09-10 16:55:40.496 [main] WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:551] maincid - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'agencyController': Unsatisfied dependency expressed through field 'agencyService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.hfbin.house.core.service.AgencyService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-09-10 16:55:40.653 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field agencyService in cn.hfbin.house.web.controller.AgencyController required a bean of type 'cn.hfbin.house.core.service.AgencyService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.hfbin.house.core.service.AgencyService' in your configuration.
+
